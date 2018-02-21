@@ -20,11 +20,11 @@ describe Dessert do
       expect(cake.quantity).to eq(15)
     end
     it "starts ingredients as an empty array" do
-      expect(cake.indredients).to empty
+      expect(cake.ingredients).to be_empty
     end
+    let(:new_cake) { Dessert.new('pastry', '15', chef) }
     it "raises an argument error when given a non-integer quantity" do
-      let(:cake) { Dessert.new('pastry', '15', chef) }
-      expect(cake.type).to raise_exception
+      expect{ Dessert.new('pastry', '15', chef)}.to raise_error('ArgumentError')
     end
   end
 
