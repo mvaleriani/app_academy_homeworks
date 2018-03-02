@@ -1,3 +1,4 @@
+require 'byebug'
 class SnackBox
   SNACK_BOX_DATA = {
     1 => {
@@ -110,7 +111,14 @@ class MetaCorgiSnacks
   end
 
   def method_missing(name, *args)
-    # Your code goes here...
+    treat = name.to_s
+    # debugger
+    info_sym = "get_#{treat}_info".to_sym
+    info = @snack_box::info_sym(@box_id)
+    taste_sym = "get_#{treat}_tastiniess".to_sym
+    tastiness = @snack_box::taste_sym(@box_id)
+    result = "Treat: #{info}: #{tastiness} "
+    tastiness > 30 ? "* #{result}" : result
   end
 
 
