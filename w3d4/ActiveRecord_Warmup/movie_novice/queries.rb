@@ -25,7 +25,7 @@ require 'byebug'
 def find_angelina
   #find Angelina Jolie by name in the actors table
   # debugger
-  angelina = Actor.where('name = ?', 'Angelina Jolie')
+  angelina = Actor.where(actors:{name: 'Angelina Jolie'})
   # p angelina.name
   angelina
 end

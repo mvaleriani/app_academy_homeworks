@@ -1,0 +1,15 @@
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/michaelvaleriani/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180302-28566-1fi3vld.rb extconf.rb
+creating Makefile
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20180302-28566-mpfv56

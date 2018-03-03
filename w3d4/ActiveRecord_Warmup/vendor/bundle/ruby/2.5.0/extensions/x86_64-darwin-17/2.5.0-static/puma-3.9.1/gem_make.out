@@ -1,0 +1,21 @@
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/puma-3.9.1/ext/puma_http11
+/Users/michaelvaleriani/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180302-28566-1s3v3d3.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/michaelvaleriani/Desktop/App_Academy/02_main_bootcamp/app_academy_homeworks/w3d4/ActiveRecord_Warmup/vendor/bundle/ruby/2.5.0/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20180302-28566-cm1l3n/puma
